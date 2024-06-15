@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #eae6d5;
+  background-color: #25c209;
   font-family: 'Space Mono', monospace;
   font-family: 'Open Sans', sans-serif;
 
@@ -29,15 +29,15 @@ body {
   justify-content: space-between;
   flex-direction: row;
   padding: 1rem 0;
-  border-bottom: 3px solid #791b1d;
-  background-color: #d5d0b8;
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #0a8d0a;
+  background-color: #96eb8c;
+  box-shadow: 6px 6px 10px rgba(43, 43, 43, 0.2);
 }
 
 .navbar > h2{
   margin-left: 20px;
   font-size: 30px;
-  color: #32210f;
+  color: #5a9b09;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -66,14 +66,14 @@ a {
 
 nav > ul > li > a:hover,
 a:hover {
-  background-color: #791b1d;
+  background-color: #991113;
 }
 
 /* style for index.pug */
 h1.title {
   text-align: center;
   margin: 1.5rem;
-  color: #32210f;
+  color: #a4dca1;
 }
 
 ul.menu {
@@ -90,7 +90,7 @@ ul.menu li {
   text-align: center;
   border-radius: 10px; 
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2); 
-  background-color: #a09f99;
+  background-color: #8ba790;
 }
 
 ul.menu li img {
@@ -108,7 +108,7 @@ ul.menu li h2 {
 ul.menu li p {
   margin: 5px 0;
   font-size: 16px;
-  color: #32210f;
+  color: #0f3218;
 }
 
 /* style for register and login.pug */
@@ -121,9 +121,9 @@ ul.menu li p {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #5d8f18;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #adfca4;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -139,22 +139,22 @@ ul.menu li p {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #98ce8d;
   border-radius: 5px;
 }
 
 .reg-form input[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #791b1d;
-  color: #fff;
+  background-color: #21771b;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .reg-form input[type="submit"]:hover {
-  background-color: #32210f;
+  background-color: #10320f;
 }
 
 .alacc {
@@ -183,7 +183,7 @@ ul.menu li p {
   font-weight: bold;
 }
 
-/* style for manage-users */
+/* style for manage yusers*/
 .table-container {
   display: flex;
   justify-content: center;
@@ -192,24 +192,24 @@ ul.menu li p {
 .table {
   border-collapse: collapse;
   width: 80%;
-  background-color: #ebe8e4;
+  background-color: #e4ebe5;
   border-radius: 10px;
   margin: 20px auto;
 }
 
 .table thead{
-  background-color: #ccc;
+  background-color: #cccccc;
 }
 
 .table th, .table td {
-  border: 1px solid #32210f;
+  border: 1px solid #14320f;
   padding: 15px;
   text-align: left;
 }
 
 input[type="submit"] {
-  background-color: #791b1d; 
-  color: white;
+  background-color: #36791b; 
+  color: rgb(255, 255, 255);
   padding: 6px 12px;
   border: none;
   border-radius: 5px;
@@ -218,7 +218,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #32210f; 
+  background-color: #18320f; 
 }
 
 select {
@@ -311,9 +311,9 @@ table.tablereport tr:hover {
   margin: 50px auto;
   margin-bottom: 25px;
   padding: 20px;
-  border: 2px solid #32210f;
+  border: 2px solid #1a320f;
   border-radius: 10px;
-  background-color: #d5d4d0;
+  background-color: #d1d5d0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -334,7 +334,7 @@ select {
   width: 100%;
   padding: 10px;
   font-size: 1.2em;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 5px;
   box-sizing: border-box;
 }
@@ -344,12 +344,12 @@ button {
   padding: 10px;
   font-size: 1.2em;
   color: white;
-  background-color: #791b1d;
+  background-color: #23791b;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #32210f;
+  background-color: #11320f;
 }
